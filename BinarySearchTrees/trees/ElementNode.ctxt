@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ElementNode
+comment0.text=\r\n\ A\ node\ for\ a\ binary\ search\ tree.\r\n\ <br>\r\n\ \r\n\ @author\ Axel\ Schmolitzky\ \r\n\ @version\ 2023\r\n
+comment1.params=elem
+comment1.target=ElementNode(java.lang.Comparable)
+comment1.text=\r\n\ Initialize\ a\ new\ node\ with\ its\ content.\ A\ new\ node\ initially\r\n\ has\ no\ children.\r\n\ @param\ elem\ \r\n\ @require\ elem\ \!\=\ null\r\n
+comment2.params=
+comment2.target=java.lang.Comparable\ getElement()
+comment2.text=\r\n\ Returns\ the\ element\ of\ this\ node.\r\n\ @return\ the\ element\ of\ this\ node.\r\n\ @ensure\ result\ \!\=\ null\r\n
+comment3.params=elem
+comment3.target=void\ add(java.lang.Comparable)
+comment3.text=\r\n\ Adds\ the\ specified\ element.\r\n\ @param\ elem\ element\ to\ be\ added\ to\ this\ set.\r\n\ @require\ elem\ \!\=\ null\ &&\ \!contains(elem)\r\n
+comment4.params=elem
+comment4.target=boolean\ contains(java.lang.Comparable)
+comment4.text=\r\n\ Returns\ true\ if\ the\ set\ of\ elements\ that\ is\ reachable\ via\r\n\ this\ node\ contains\ the\ specified\ element,\ false\ otherwise.\r\n\ @param\ elem\ element\ whose\ presence\ in\ this\ set\ is\ to\ be\ tested\r\n\ @require\ elem\ \!\=\ null\r\n
+comment5.params=
+comment5.target=ElementNode\ getLeft()
+comment5.text=\r\n\ Returns\ the\ left\ child\ node\ of\ this\ node.\r\n\ @return\ the\ left\ child\ node\ of\ this\ node.\r\n
+comment6.params=
+comment6.target=ElementNode\ getRight()
+comment6.text=\r\n\ Returns\ the\ right\ child\ node\ of\ this\ node.\r\n\ @return\ the\ right\ child\ node\ of\ this\ node.\r\n
+numComments=7
